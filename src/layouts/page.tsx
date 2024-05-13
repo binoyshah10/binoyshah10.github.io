@@ -21,10 +21,24 @@ export default function Page() {
       <aside className={isSidebarOpen ? styles.drawerOpen : ""}>
         <ul>
           <li>
-            <Link to="/">Home</Link>
+            <Link to="/">Our Impact</Link>
           </li>
           <li>
-            <Link to="/about">About</Link>
+            <Link to="/why-us">Why Us</Link>
+          </li>
+          <li>
+            <Link to="/about">About Us</Link>
+          </li>
+          <li className={styles.hasSubmenus}>
+            <div>Programs</div>
+            <>
+              <li>
+                <Link to="/aqua-assist">AquaAssist</Link>
+              </li>
+              <li>
+                <Link to="/empowher">EmpowHer</Link>
+              </li>
+            </>
           </li>
         </ul>
       </aside>

@@ -1,0 +1,15 @@
+.homeContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+
+  h1 {
+    margin-top: 24px;
+  }
+
+  p {
+    text-align: left;
+    margin-top: 12px;
+  }
+}
